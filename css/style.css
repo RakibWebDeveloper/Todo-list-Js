@@ -18,3 +18,55 @@ body {
     background-color: rgba(0 , 0, 0, 0.1);
     font-family: 'Titillium Web', sans-serif;
 }
+
+/* /////////////////// */
+/* Container */
+/* /////////////////// */
+
+.container {
+    padding: 1rem;
+    max-width: 38rem;
+    margin: 10rem auto;
+}
+
+
+/* /////////////////// */
+/* Header */
+/* /////////////////// */
+
+.header {
+    max-width: 38rem;
+    height: 20rem;
+    background-image: url(../img/bg2.jpg);
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 1rem 1rem 0 0;
+    position: relative;
+}
+
+.clear {
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    right: 2rem;
+    top: 2rem;
+}
+
+.clear i {
+    font-size: 3rem;
+    color: whitesmoke;
+    
+}
+
+.clear i:hover {
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000000;
+}
+
+#date {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    color: whitesmoke;
+    font-size: 2.5rem;
+}
